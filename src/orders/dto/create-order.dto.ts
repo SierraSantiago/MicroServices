@@ -3,7 +3,7 @@ import { IsNotEmpty, IsNumber, IsString } from 'class-validator';
 export class CreateOrderDto {
   @IsNumber()
   @IsNotEmpty()
-  id: number; // El id ahora debe ser proporcionado manualmente
+  id: number; 
 
   @IsString()
   @IsNotEmpty()
